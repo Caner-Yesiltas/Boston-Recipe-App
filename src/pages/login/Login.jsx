@@ -1,11 +1,7 @@
-import LoginStyle from './Navbar.style'
+import LoginStyle from './Login.style';
 
 const Login = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div>login</div>;
+};
 
-export default Login
+export default Login;

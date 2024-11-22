@@ -1,19 +1,23 @@
-import { GlobalStyles } from '../components/globalStyles/Global.styles'
-import Navbar from '../components/navbar'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { GlobalStyles } from '../components/globalStyles/Global.styles';
+import Navbar from '../components/navbar/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Login from '../pages/login/Login';
+import About from '../pages/about/About';
+import Home from '../pages/home/Home';
 
 const AppRouter = () => {
   return (
-   <BrowserRouter>
-   <Navbar/>
-   <GlobalStyles/>
-   <Routes>
+    <BrowserRouter>
+      <GlobalStyles />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='login' element={<Login />} />
+        <Route path='about' element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-    <Route   />
-
-   </Routes>
-   </BrowserRouter>
-  )
-}
-
-export default AppRouter
+export default AppRouter;
