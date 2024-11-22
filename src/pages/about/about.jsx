@@ -1,4 +1,4 @@
-import React from 'react'
+import AboutStyle from './about.style'
 
 const about = () => {
   return (

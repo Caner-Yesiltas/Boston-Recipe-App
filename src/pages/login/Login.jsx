@@ -1,4 +1,4 @@
-import React from 'react'
+import LoginStyle from './Navbar.style'
 
 const Login = () => {
   return (
