@@ -19,7 +19,7 @@ const Login = () => {
   return (
     <LoginContainer>
       <FormContainer>
-        <Header>{'<CW/>'}Recipe</Header>
+        <Header>{'<Boston>'}Recipe</Header>
         <StyledImg src={mealSvg} alt='meal' />
         <StyledForm onSubmit={handleSubmit}   >
           <StyledInput type='text' placeholder='username' required />
