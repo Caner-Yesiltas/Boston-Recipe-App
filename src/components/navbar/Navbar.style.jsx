@@ -51,6 +51,10 @@ export const MenuLink = styled(Link)`
     color: ${({ theme }) => theme.colors.mainColor};
     font-weight: bold;
   }
+
+  @media (max-width: ${({theme}) => theme.screens.lg}) {
+  border-bottom: 1px solid ${({theme}) =>theme.colors.linkColor}};
+  width:100%;
 `;
 
 export default Nav;

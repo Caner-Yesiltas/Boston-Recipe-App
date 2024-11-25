@@ -1,4 +1,4 @@
-import LoginStyle, {FormContainer,Header,LoginContainer,StyledButton,StyledForm,StyledImg,StyledInput,} from './Login.style';
+import {FormContainer,Header,LoginContainer,StyledButton,StyledForm,StyledImg,StyledInput,} from './Login.style';
 import mealSvg from '../../assets/meal.svg';
 import { useNavigate } from 'react-router-dom';
 
