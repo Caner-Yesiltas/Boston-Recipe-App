@@ -9,14 +9,15 @@ export const AboutContainer = styled(Flex)`
 
   span {
     color: #ff7043; // Turuncu
-    font-size: 3rem;
+    font-size: 1rem;
   }
 `;
 
 export const InfoContainer = styled.div`
-  text-align: right;
+  text-align: center;
   margin: 0 0.7rem;
   max-width: 1000px;
+  font-size: 1rem;
   background: linear-gradient(
     45deg,
     rgba(255, 112, 67, 0.1),
