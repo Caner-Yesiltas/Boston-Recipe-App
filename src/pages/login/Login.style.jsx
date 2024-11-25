@@ -13,11 +13,18 @@ export const FormContainer = styled(Flex)`
   width: 40rem;
   height: 40rem;
   max-width: 50rem;
-  background: rgba(0, 173, 181, 0.5);
+  background: rgba(255, 112, 67, 0.1);
   border-radius: 50%;
-  border: 2px solid #e1f1dd;
   padding: 0.5rem;
   flex-direction: column;
+  box-shadow: 0 0 15px rgba(244, 81, 30, 0.3);
+  backdrop-filter: blur(5px);
+
+  &:hover {
+    background: rgba(255, 112, 67, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
 `;
 
 export const Header = styled.h1`
