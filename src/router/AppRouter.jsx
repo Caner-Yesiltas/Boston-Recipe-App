@@ -7,7 +7,7 @@ import About from '../pages/about/About';
 import Home from '../pages/home/Home';
 import PrivateRouter from './PrivateRouter';
 import Detail from '../pages/detail/Detail';
-import Register from '../pages/register/Register'
+import Register from '../pages/register/Register';
 
 const AppRouter = () => {
   return (
@@ -15,19 +15,17 @@ const AppRouter = () => {
       <GlobalStyles />
       <Navbar />
       <Routes>
-
         <Route path='/' element={<Home />} />
         <Route path='login' element={<Login />} />
-        <Route path="register" element={<Register/>} />
+        <Route path='register' element={<Register />} />
 
-        <Route path='about' element={<PrivateRouter/>} >
-        <Route path='' element={<About/>} />
+        <Route path='about' element={<PrivateRouter />}>
+          <Route path='' element={<About />} />
         </Route>
 
-<Route  path="detail" element={<PrivateRouter/>}  >
-  <Route path="" element={<Detail/>}  />
-</Route>
-
+        <Route path='detail' element={<PrivateRouter />}>
+          <Route path='' element={<Detail />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

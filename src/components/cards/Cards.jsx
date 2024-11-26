@@ -1,7 +1,7 @@
 import CardStyle from './Cards.style'
 
 const Cards = () => {
-  return <div></div>;
+  return <div>nerede</div>;
 };
 
 export default Cards;
