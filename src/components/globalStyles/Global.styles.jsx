@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
 
 body{
 font-size: 1.5rem;
-background: ${({theme}) => theme.colors.navBgColor }
+background: ${({ theme }) => theme.colors.navBgColor}
 }
 
 `;
