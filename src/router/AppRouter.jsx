@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from '../components/navbar/Navbar';
 import Login from '../pages/login/Login';
-import About from '../pages/about/About';
+import About from '../pages/about';
 import Home from '../pages/home/Home';
 import PrivateRouter from './PrivateRouter';
 import Detail from '../pages/detail/Detail';
@@ -20,7 +20,7 @@ const AppRouter = () => {
         <Route path='register' element={<Register />} />
 
         <Route path='about' element={<PrivateRouter />}>
-          <Route path='' element={<About />} />
+          <Route path='' element={<About/>} />
         </Route>
 
         <Route path='detail' element={<PrivateRouter />}>
