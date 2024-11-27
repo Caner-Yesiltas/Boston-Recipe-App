@@ -4,6 +4,10 @@
   </h2>
 </div>
 
+<div align="center">
+  <img src="./assets/Boston-Recipe-App.gif" alt="TaskFlow Manager Demo" width="800"/>
+</div>
+
 ## 📌 About The Project
 
 Recipe App is a modern web application built with React that allows users to search and discover recipes. With a beautiful user interface and authentication system, users can explore various meal types and view detailed recipe information.
