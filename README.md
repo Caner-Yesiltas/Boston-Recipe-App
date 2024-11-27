@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+<div align="center">
+  <h2>
+    👉 <a href="https://recipe-app-boston.vercel.app/">Live Demo</a> 👈
+  </h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 About The Project
 
-## Available Scripts
+Recipe App is a modern web application built with React that allows users to search and discover recipes. With a beautiful user interface and authentication system, users can explore various meal types and view detailed recipe information.
 
-In the project directory, you can run:
+### ✨ Key Features
 
-### `yarn start`
+- 🔍 Search recipes with keywords
+- 🍳 Filter by meal types (Breakfast, Lunch, Dinner, Snack, Teatime)
+- 🔒 User authentication system
+- 💾 Session storage for user management
+- 🎨 Styled-components for dynamic styling
+- 🌈 Responsive design with hamburger menu
+- 🎯 Protected routes for authenticated users
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛠️ Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://axios-http.com/)
+- [React Icons](https://react-icons.github.io/)
+- [Edamam API](https://www.edamam.com/)
 
-### `yarn test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/recipe-app.git
 
-### `yarn build`
+# Navigate to project directory
+cd recipe-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Create .env file and add your Edamam API credentials
+REACT_APP_APP_ID=your_app_id
+REACT_APP_APP_KEY=your_app_key
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start the development server
+yarn start
+```
 
-### `yarn eject`
+## 💻 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   ├── cards/          # Recipe card components
+│   ├── globalStyles/   # Global styling and theme
+│   ├── header/         # Search and filter components
+│   └── navbar/         # Navigation component
+├── pages/
+│   ├── about/          # About page
+│   ├── detail/         # Recipe details page
+│   ├── home/           # Main recipe search page
+│   ├── login/          # Authentication page
+│   └── register/       # User registration page
+├── router/
+│   ├── AppRouter.jsx   # Route configurations
+│   └── PrivateRouter.jsx # Protected route logic
+└── App.js              # Main application component
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔍 Core Functionality
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Recipe Search**: Users can search recipes using keywords
+- **Meal Type Filtering**: Filter recipes by different meal types
+- **Authentication**: Login/Register system with session storage
+- **Protected Routes**: Secure routes for authenticated users only
+- **Responsive Design**: Mobile-friendly interface with hamburger menu
+- **Recipe Details**: Detailed view for each recipe with ingredients
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Component Details
 
-## Learn More
+### Navbar Component
+- Responsive navigation with hamburger menu
+- Dynamic styling based on theme
+- Authentication-aware navigation links
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Cards Component
+- Grid layout for recipe display
+- Hover effects and shadows
+- Image fallback handling
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Login Component
+- Styled form with blur effect
+- Session storage integration
+- Protected route redirection
 
-### Code Splitting
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Hamburger menu for mobile devices
+- Fluid layouts with styled-components
+- Breakpoint-based styling
+- Flexible grid system for recipe cards
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Advanced Configuration
+## 📫 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Caner Yesiltas - caneryesiltas1@gmail.com
 
-### Deployment
+Project Link: [https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app](https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<div align="center">
+  Made with ❤️ by Caner Yesiltas
+</div>
+
