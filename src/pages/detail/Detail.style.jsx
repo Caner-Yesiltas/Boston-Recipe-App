@@ -28,12 +28,15 @@ export const ImgContainer = styled.div`
     justify-content: center;
   }
 `;
-
 export const HeaderContainer = styled(Flex)`
-  margin: 25px;
-  img {
-    width: 200px;
-  }
+   margin: 25px;
+`;
+
+export const StyledImg = styled.img`
+   max-width: 150px;
+   width: 15vw;
+   min-width: 100px;
+   height: auto;
 `;
 
 export const IngContainer = styled.div`

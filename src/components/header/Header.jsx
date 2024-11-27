@@ -22,13 +22,15 @@ export const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
             placeholder='Trending Now'
             onChange={(e) => setQuery(e.target.value)}
           ></FoodInput>
-          <Button typ='submit'>Chef's Choice </Button>
-          <Select name='mealType' id='mealType'>
+          <Button type='submit'>Chef's Choice </Button>
+          <Select
+            name='mealType'
+            id='mealType'
             onChange={(e) => setSelectedMeal(e.target.value)}
+          >
             {mealType.map((meal, index) => (
               <option key={index} value={meal.toLowerCase()}>
-                {' '}
-                {meal}{' '}
+                {meal}
               </option>
             ))}
             ;
