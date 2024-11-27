@@ -1,4 +1,4 @@
-import { AboutContainer, InfoContainer, StyledImage } from "./About.style.jsx";
+import { AboutContainer, InfoContainer, StyledImage } from "./About.style";
 import codingSvg from '../../assets/coding.svg';
 
 const About = () => {
