@@ -3,7 +3,7 @@ import Flex from '../../components/globalStyles/Flex';
 
 export const DetailContainer = styled(Flex)`
   flex-direction: column;
-  background: #00adb5;
+  background: #fff3e0;
   min-height: calc(100vh - 75px);
   padding: 0.5rem;
 `;
