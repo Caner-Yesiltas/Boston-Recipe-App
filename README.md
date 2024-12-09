@@ -35,7 +35,7 @@ Recipe App is a modern web application built with React that allows users to sea
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/recipe-app.git
+git clone https://github.com/caneryesiltas/recipe-app.git
 
 # Navigate to project directory
 cd recipe-app
