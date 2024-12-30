@@ -1,7 +1,7 @@
 <div align="center">
- <h1> 
-# Boston Recipe App 🧑‍🍳
- </h1>
+  <h1>
+    # Boston Recipe App 🧑‍🍳
+  </h1>
 </div>
 
 <div align="center">
@@ -27,6 +27,8 @@ Recipe App is a modern web application built with React that allows users to sea
 - 🎨 Styled-components for dynamic styling
 - 🌈 Responsive design with hamburger menu
 - 🎯 Protected routes for authenticated users
+- 🚀 Lazy loading for optimized performance
+- 📱 Efficient component rendering with lazy loading
 
 ### 🛠️ Built With
 
@@ -62,16 +64,16 @@ yarn start
 ```
 src/
 ├── components/
-│   ├── cards/          # Recipe card components
+│   ├── cards/          # Recipe card components with lazy loading
 │   ├── globalStyles/   # Global styling and theme
 │   ├── header/         # Search and filter components
 │   └── navbar/         # Navigation component
-├── pages/
-│   ├── about/          # About page
-│   ├── detail/         # Recipe details page
-│   ├── home/           # Main recipe search page
-│   ├── login/          # Authentication page
-│   └── register/       # User registration page
+├── pages/              # Lazy loaded pages
+│   ├── about/         
+│   ├── detail/         
+│   ├── home/           
+│   ├── login/          
+│   └── register/       
 ├── router/
 │   ├── AppRouter.jsx   # Route configurations
 │   └── PrivateRouter.jsx # Protected route logic
@@ -86,6 +88,11 @@ src/
 - **Protected Routes**: Secure routes for authenticated users only
 - **Responsive Design**: Mobile-friendly interface with hamburger menu
 - **Recipe Details**: Detailed view for each recipe with ingredients
+- **Performance Optimization**: 
+  - Lazy loading implementation for pages and card components
+  - Improved initial loading time
+  - Better resource management
+  - Optimized component rendering
 
 ## 🎯 Component Details
 
@@ -95,9 +102,10 @@ src/
 - Authentication-aware navigation links
 
 ### Cards Component
-- Grid layout for recipe display
+- Grid layout for recipe display with lazy loading
 - Hover effects and shadows
 - Image fallback handling
+- Optimized rendering for better performance
 
 ### Login Component
 - Styled form with blur effect
@@ -123,13 +131,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app](https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app)
-
-
+Project Link: [https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app](https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app)  
 
 ---
 
 <div align="center">
   Made with ❤️ by Caner Yesiltas
 </div>
-
