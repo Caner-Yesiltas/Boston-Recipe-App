@@ -10,7 +10,7 @@ const Cards = ({ recipes }) => {
         {recipes.map(({ recipe }, index) => (
           <Card key={index}>
             <Header>{recipe.label}</Header>
-            <Image src={recipe.image || defaultImage} />
+            <Image   loading="lazy"  src={recipe.image || defaultImage} />
             <Button
               onClick={() =>
                 navigate('detail', { state: recipe, replace: false })
