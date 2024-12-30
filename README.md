@@ -1,4 +1,10 @@
 <div align="center">
+ <h1> 
+# Boston Recipe App 🧑‍🍳
+ </h1>
+</div>
+
+<div align="center">
   <h2>
     👉 <a href="https://recipe-app-boston.vercel.app/">Live Demo</a> 👈
   </h2>
