@@ -6,7 +6,7 @@
 
 <div align="center">
   <h2>
-    👉 <a href="[https://recipe-app-boston.vercel.app/](https://boston-recipe-app-v2.vercel.app/)">Live Demo</a> 👈
+    👉 <a href="https://boston-recipe-app-v2.vercel.app/">Live Demo</a> 👈
   </h2>
 </div>
 
