@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app](https://boston-recipe-app-lm7t-2p6xccloj-caner-yesiltas-projects.vercel.app)  
+Project Link: [https://boston-recipe-app-v2.vercel.app/](https://boston-recipe-app-v2.vercel.app/)  
 
 ---
 
