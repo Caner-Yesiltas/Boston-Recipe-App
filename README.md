@@ -136,5 +136,5 @@ Project Link: [https://boston-recipe-app-v2.vercel.app/](https://boston-recipe-a
 ---
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with by Caner Yesiltas
 </div>
