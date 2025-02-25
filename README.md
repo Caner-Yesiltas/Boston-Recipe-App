@@ -136,5 +136,5 @@ Project Link: [https://boston-recipe-frw2zeya2-caner-yesiltas-projects.vercel.ap
 ---
 
 <div align="center">
-  Made with by Caner Yesiltas
+  Made with 🧑‍🍳 by Caner Yesiltas
 </div>
