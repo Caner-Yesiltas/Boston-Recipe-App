@@ -27,7 +27,7 @@ const Home = () => {
         const { data } = await axios.get(currentUrl);
         setRecipes(data.hits);
       } catch (error) {
-        
+      
     
         if (error.config) {
          
@@ -44,10 +44,7 @@ const Home = () => {
   };
 
 
-  useEffect(() => {
-    getData();
 
-  }, []); 
 
   return (
     <div>
