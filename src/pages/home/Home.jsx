@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { HeaderText, HomeImg, ImgDiv } from './Home.style';
 import axios from 'axios';
 import { Header } from '../../components/header/Header';
