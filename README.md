@@ -6,7 +6,7 @@
 
 <div align="center">
   <h2>
-    👉 <a href="https://boston-recipe-app-lm7t.vercel.app/">Live Demo</a> 👈
+    👉 <a href="https://boston-recipe-app-mjgt.vercel.app/">Live Demo</a> 👈
   </h2>
 </div>
 
@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://boston-recipe-app-lm7t.vercel.app/](https://boston-recipe-app-lm7t.vercel.app/)  
+Project Link: [https://boston-recipe-app-mjgt.vercel.app/](https://boston-recipe-app-mjgt.vercel.app/)  
 
 ---
 

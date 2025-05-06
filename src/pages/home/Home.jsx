@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HeaderText, HomeImg, ImgDiv } from './Home.style';
 import axios from 'axios';
 import { Header } from '../../components/header/Header';
@@ -15,24 +15,39 @@ const Home = () => {
   const APP_KEY = process.env.REACT_APP_APP_KEY;
 
   console.log('APP_ID:', APP_ID);
-console.log('APP_KEY:', APP_KEY);
+  console.log('APP_KEY:', APP_KEY);
 
-
-  const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
 
   const getData = async () => {
-    if (query)
+    const currentUrl = `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
+    console.log('Current URL:', currentUrl);
+
+    if (query && APP_ID && APP_KEY) { 
       try {
-        const { data } = await axios.get(url);
+        const { data } = await axios.get(currentUrl);
         setRecipes(data.hits);
       } catch (error) {
-        console.log(error);
+        
+    
+        if (error.config) {
+         
+        }
+     
       }
+    } else if (!APP_ID || !APP_KEY) {
+     
+      alert('API configuration error. Please contact support.');
+    }
     else {
       alert('Please Enter your meal');
     }
   };
-  // console.log(recipes);
+
+
+  useEffect(() => {
+    getData();
+
+  }, []); 
 
   return (
     <div>
